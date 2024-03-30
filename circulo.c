@@ -1,9 +1,9 @@
 
-#include "circulo.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-#define M_PI 3.14159265358979323846
+#include "circulo.h" //  inclui o arquivo de cabeçalho circulo.h, que contém os protótipos das funções e a definição da estrutura Circulo
+#include <stdio.h>  // Permite o uso de funções de entrada e saída padrão, como printf e scanf.
+#include <stdlib.h> // Permite o uso de funções relacionadas à alocação de memória dinâmica, como malloc e free.
+#include <math.h>   // Permite o uso de funções matemáticas, como sqrt, sin, cos, etc.
+#define M_PI 3.14159265358979323846 // Define a constante M_PI como uma aproximação do valor de π.
 
 // Definição da estrutura do círculo
 struct Circulo {
